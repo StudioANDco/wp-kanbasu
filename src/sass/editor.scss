@@ -1,0 +1,32 @@
+/**
+ * EDITOR STYLE
+ */
+
+@import 'settings';
+
+@import '../node_modules/kanbasu/src/assets/scss/tools/functions';
+@import '../node_modules/kanbasu/src/assets/scss/tools/mixins';
+@import '../node_modules/kanbasu/src/assets/scss/vendor/normalize';
+@import '../node_modules/kanbasu/src/assets/scss/defaults/box-model';
+@import '../node_modules/kanbasu/src/assets/scss/defaults/elements';
+
+@import '../node_modules/kanbasu/src/assets/scss/helpers/float';
+
+@import '../node_modules/kanbasu/src/assets/scss/components/grid';
+@import '../node_modules/kanbasu/src/assets/scss/components/widths';
+@import '../node_modules/kanbasu/src/assets/scss/components/widths-responsive';
+
+
+.grid {
+    margin: 10px;
+}
+
+.grid__item {
+    border: 1px dashed black;
+    padding: 5px;
+    box-sizing: border-box;
+
+    img {
+        padding: 10px;
+    }
+}
